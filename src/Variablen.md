@@ -69,7 +69,11 @@ julia> counter
 1
 ```
 
-Das gleiche könnten Sie auch für alle anderen Operatoren schreiben. Zum Beispiel ```julia counter = counter / 5 ```  
+Das gleiche könnten Sie auch für alle anderen Operatoren schreiben. Zum Beispiel ```counter = counter / 5 ```  
 Aber wir können das ganze mit Hilfe der Update-Operatoren kürzer und ausdrucksstärker schreiben.  
 
+|Update-Operator | Bedeutung |
+|----------------|-----------|
+|x += y | x = x + y|
+|x -= y | x = x - y |
 

@@ -14,4 +14,10 @@ Julia kennt wie jeder andere höhere Programmiersprache verschiedene Datentypen 
 ```matlab
 julia> 3
 3
+julia> 3.14
+3.14
+julia> 'c'
+'c': ASCII/Unicode U+0063 (category Ll: Letter, lowercase)
+julia> "hello world"
+"hello world"
 ```

@@ -18,6 +18,13 @@ julia> 3.14
 3.14
 julia> 'c'
 'c': ASCII/Unicode U+0063 (category Ll: Letter, lowercase)
-julia> \"hello world"
+julia> "hello world"
 "hello world"
 ```
+
+Oben haben wir bereits vier grundlegende Typen kennen gerlent. 
+* Integer
+* Float
+* Char
+* String
+

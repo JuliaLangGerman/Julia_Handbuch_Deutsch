@@ -110,4 +110,17 @@ julia> "Zwei plus Drei ist $(2+3)"
 
 Darüberhinaus haben wir einen neuen Datentype bzw. dessen Werte kennen gelernt nämlich den Datentype ```Bool``` dieser Datentype kennt nur zwei Werte nämlich ```true``` und ```false```. Diese Werte benötigen wir insbesondere bei den Kontrollstrukturen. Wir können nämlich mit Hilfe von true und false auf Ja/Nein Fragen antworten, was gerade bei Entscheidungen wichtig ist. 
 
+Mit den Charactern (Zeichen) können wir auch ein bssichen was anstellen.
+
+```julia
+julia> Int('c')
+99
+julia> Char(120)
+'x': ASCII/Unicode U+0078 (category Ll: Letter, lowercase)
+
+```
+
+* Mit der Funktion ```Int``` können wir das jeweilige Zeichen in seine [ASCII-Darstellung](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange) übersetzen. In dem Fall in den Dezimalwert den das jeweilige Zeichen im ASCII-Code einnimmt.  
+* Die Umkehrung zu Funktion Int übernimmt die Funktion ```Char``` hier können wir den Dezimalwert im ASCII Code in das jeweilige Zeichen umrechnen. 
+
 

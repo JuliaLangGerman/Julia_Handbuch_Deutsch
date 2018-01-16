@@ -1,6 +1,6 @@
 # Julia Handbuch auf Deutsch
 
-Dieses Repository stellt ein deutsches Handbuch für die Programmiersprache [Julia](https://github.com/JuliaLang/julia) da. 
+Dieses Repository stellt das deutsches Handbuch für die Programmiersprache [Julia](https://github.com/JuliaLang/julia) da. 
 Bei Julia handelt es sich um eine effiziente höhere Programmiersprache gerade für den mathematisch-technischen Anwendungsbereich. Die Syntax der Sprache lehnt sich sehr stark an MATLAB an, es finden sich aber allgemein auch Sprachelemente aus modernen Programmiersprachen wieder. So zum Beispiel die try-catch Struktur um Ausnahmen abfangen und behandeln zu können, aber auch Lambda-Ausdrücke aus der funktionalen Programmierung. Von der Ausführgeschwindigkeit her kann man Julia im Bereich von C und Fortran einordnen, somit ist die Sprache signifikant effizienter als die Programmiersprachen Matlab, R oder Octave. Julia ermöglicht außerdem die Nutzung von C und Fortran Bibliotheken und besitzt zudem einen Garbarge-Collector. 
 Der Julia Compiler wurde in den Sprachen C/C++ und Scheme geschrieben, die Standardbibliothek in Julia selbst.
 

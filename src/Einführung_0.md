@@ -129,7 +129,6 @@ end
 
 Beim obigen Beispiel greifen wir etwas vor, aber keine Sorge die einzelnen Bestandteile werden wir noch näher klären. Das Beispiel soll nur die Verwendung von bitweisen Operationen wie hier dem links shift ```<<``` verdeutlichen.
 
-### Update Operationen
 
 ### Operationen auf Strings
 

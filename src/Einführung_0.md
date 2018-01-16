@@ -84,4 +84,4 @@ julia> "hello world"[1:5]
 "hello"
 ```
 So wie Sie es von anderen Programmiersprachen auch gewöhnt sind, können Sie auch mittels des Index-Operators **[]** auf die einzelnen Elemente eines Strings zugreifen. **Wichtig: Die Indexierung beginnt in Julia bei 1**   
-Auch das sogenannte **Slicing** ist möglich. Wir können uns also bestimmte Teile unseres Strings heraus picken, wie Sie es im letzten Beispiel oben sehen, können wir aus dem String ```hello world``` das ```"hello"``` heraus schneiden.
+Auch das sogenannte **Slicing** ist möglich. Wir können uns also bestimmte Teile unseres Strings heraus picken, wie Sie es im letzten Beispiel oben sehen, können wir aus dem String ```"hello world"``` das ```"hello"``` heraus schneiden.

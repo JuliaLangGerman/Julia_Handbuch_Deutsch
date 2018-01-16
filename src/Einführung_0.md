@@ -182,3 +182,24 @@ julia> 6 > 8 < 3
 false
 
 ```
+
+### Logik-Operationen
+
+Mit Hilfe der Logikoperationen sind wir in der Lage auch mit Wahrheitswerten zu rechnen. Dies werden Sie bereits aus der Aussagelogik kennen. Die Logikoperationen benötigen wir auch für den bau von Bedingungen und diese wiederum in Kontrollstrukturen. 
+
+```julia
+julia> !true
+false
+julia> !false
+true
+julia> true && true
+true
+julia> true || false
+true
+```
+
+* ```!``` ist das logische NICHT  
+* ```&&``` ist das logische UND  
+* ```||``` ist das logische ODER
+
+

@@ -97,6 +97,7 @@ Die bitweisen Operationen können eine Rolle beim Thema Verschlüsselung und Has
 
 |Ausdruck|Bedeutung|
 |--------|---------|
+|~x | bitweises NICHT|
 
 ### Operationen auf Strings
 

@@ -100,6 +100,8 @@ Die bitweisen Operationen können eine Rolle beim Thema Verschlüsselung und Has
 |~x | bitweises NICHT|
 |x & y | bitweises UND |
 |x &#124; y | bitweises ODER |
+| x >> y | Rechts schieben |
+| x << y | Links schieben |
 
 ### Operationen auf Strings
 

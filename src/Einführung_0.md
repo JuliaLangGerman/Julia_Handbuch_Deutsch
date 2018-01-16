@@ -11,7 +11,7 @@ starten Sie den interaktiven Modus. Dieser Modus eignet sich sehr gut gerade in 
 
 Julia kennt wie jeder andere höhere Programmiersprache verschiedene Datentypen und deren mögliche Werte.
 
-```matlab
+```julia
 julia> 3
 3
 julia> 3.14

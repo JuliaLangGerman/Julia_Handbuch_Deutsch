@@ -97,11 +97,17 @@ julia> in('c',"hello")
 false
 julia> string("hello ","world")
 "hello world"
-
+julia> "hello " *  "world"
+"hello world"
+julia> "Zwei plus Drei ist $(2+3)"
+"Zwei plus Drei ist 5"
 ```
 * Die Funktion ```length``` liefert die Länge des Strings.   
 * Die Funktion ```in``` überprüft das Vorkommen eines bestimmten Zeichen in dem String. Diese Funktion wird uns auch später bei der Behandlung von Arrays wiederbegenen.  
 * Die Funktion ```string``` können wir benutzen um Strings zu konkatenieren, also um Strings zusammenzufügen.  
-
+* Der Operator ```*``` ist ein kürzere Schreibweise für die Konkatenation.  
+* Das Letzte Beispiel mit dem Operator ```$``` zeigt die sogenannte Interpolation. Damit können wir das Resultat von Ausdrücken oder von Variablen direkt in Strings darstellen. Die Interpolation wird uns noch im Laufe des Tutorials besonders auch bei der Behandlung von Variablen begegnen.  
 
 Darüberhinaus haben wir einen neuen Datentype bzw. dessen Werte kennen gelernt nämlich den Datentype ```Bool``` dieser Datentype kennt nur zwei Werte nämlich ```true``` und ```false```. Diese Werte benötigen wir insbesondere bei den Kontrollstrukturen. Wir können nämlich mit Hilfe von true und false auf Ja/Nein Fragen antworten, was gerade bei Entscheidungen wichtig ist. 
+
+

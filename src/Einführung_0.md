@@ -29,7 +29,7 @@ Oben haben wir bereits vier grundlegende Typen kennen gerlent.
 * Char
 * String
 
-Die einzelnen Typen können Sie sich mit Hilf der built-in Funktion **typeof** ausgeben lassen.
+Die einzelnen Typen können Sie sich mit Hilfe der built-in Funktion **typeof** ausgeben lassen.
 
 ```julia
 julia> typeof(3)
@@ -41,4 +41,21 @@ Char
 julia> typeof("hello world")
 String
 ```
+Mit diesen Elementen können wir auch arbeiten also Operationen auf sie anwenden. 
 
+```julia
+julia> 3 + 3
+6
+julia> 7 - 2
+5
+julia> 3 * 2
+6
+julia> 5 / 2
+2.5
+julia> div(5,2)
+2
+julia> 5 % 2
+1
+julia> 2^3
+8
+```

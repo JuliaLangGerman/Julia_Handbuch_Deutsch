@@ -185,7 +185,7 @@ false
 
 ### Logik-Operationen
 
-Mit Hilfe der Logikoperationen sind wir in der Lage auch mit Wahrheitswerten zu rechnen. Dies werden Sie bereits aus der Aussagelogik kennen. Die Logikoperationen benötigen wir auch für den bau von Bedingungen und diese wiederum in Kontrollstrukturen. 
+Mit Hilfe der Logikoperationen sind wir in der Lage auch mit Wahrheitswerten zu rechnen. Dies werden Sie bereits aus der Aussagelogik kennen. Die Logikoperationen benötigen wir auch für den Bau von Bedingungen und diese wiederum in Kontrollstrukturen. 
 
 ```julia
 julia> !true

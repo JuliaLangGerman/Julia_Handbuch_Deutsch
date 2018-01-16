@@ -76,4 +76,7 @@ Aber wir können das ganze mit Hilfe der Update-Operatoren kürzer und ausdrucks
 |----------------|-----------|
 |x += y | x = x + y|
 |x -= y | x = x - y |
-
+|x *= y | x = x * y|
+|x /= y | x = x / y |
+|x %= y | x = x % y |
+|x ^= y | x = x^y |

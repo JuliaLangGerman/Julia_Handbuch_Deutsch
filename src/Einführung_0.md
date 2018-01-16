@@ -103,6 +103,30 @@ Die bitweisen Operationen können eine Rolle beim Thema Verschlüsselung und Has
 | x >> y | Rechts schieben |
 | x << y | Links schieben |
 
+Beispiele
+
+```julia
+julia> 4 << 2
+16
+julia> ~8
+-9
+julia> 8 | 1
+9
+```
+
+sdbm Hash-Algorithm in Julia
+
+```julia
+function sdbm(str)
+    hash = 0
+    for ch in str
+        hash = Int(ch) + (hash << 6) + (hash << 16) - hash
+    end
+    return hash
+end
+
+```
+
 ### Operationen auf Strings
 
 Einen weiteren Datentype den wir kennen gelernt haben war String. Auf Strings können Sie auch Operationen anwenden.

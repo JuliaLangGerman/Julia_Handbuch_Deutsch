@@ -91,6 +91,13 @@ julia> ^(2,3)
 8
 ```
 
+### Bitweise Operationen
+
+Die bitweisen Operationen können eine Rolle beim Thema Verschlüsselung und Hashing spielen. Da viele Hash-Algorithmen bitweise Operationen nutzen.
+
+|Ausdruck|Bedeutung|
+|--------|---------|
+
 ### Operationen auf Strings
 
 Einen weiteren Datentype den wir kennen gelernt haben war String. Auf Strings können Sie auch Operationen anwenden.

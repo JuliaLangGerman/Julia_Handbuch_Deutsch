@@ -72,3 +72,16 @@ julia> %(5,2)
 julia> ^(2,3)
 8
 ```
+
+Einen weiteren Datentype den wir kennen gelernt haben war String. Auf Strings können Sie auch Operationen anwenden.
+
+```julia
+julia> "haus"[1]
+'h': ASCII/Unicode U+0068 (category Ll: Letter, lowercase)
+julia> "hello world"[end]
+'d': ASCII/Unicode U+0064 (category Ll: Letter, lowercase)
+julia> "hello world"[1:5]
+"hello"
+```
+So wie Sie es von anderen Programmiersprachen auch gewöhnt sind, können Sie auch mittels des Index-Operators **[]** auf die einzelnen Elemente eines Strings zugreifen. **Wichtig: Die Indexierung beginnt in Julia bei 1** 
+Auch das sogenannte **Slicing** ist möglich. Wir können uns also bestimmte Teile es Strings heraus picken, wie Sie es im letzten Beispiel oben sehen, können wir aus dem String ```hello world``` das ```"hello"``` heraus schneiden.

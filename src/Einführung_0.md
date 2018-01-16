@@ -23,8 +23,22 @@ julia> "hello world"
 ```
 
 Oben haben wir bereits vier grundlegende Typen kennen gerlent. 
+
 * Integer
 * Float
 * Char
 * String
+
+Die einzelnen Typen können Sie sich mit Hilf der built-in Funktion **typeof** ausgeben lassen.
+
+```julia
+julia> typeof(3)
+Int64
+julia> typeof(3.14)
+Float64
+julia> typeof('c')
+Char
+julia> typeof("hello world")
+String
+```
 

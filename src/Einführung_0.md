@@ -72,7 +72,11 @@ julia> 5 % 2
 1
 julia> 2^3
 8
+julia> -5
+-5
 ```
+
+* ```-``` kann auch als unärer Operator eingesetzt werden.  
 
 Oben sehen Sie die verschiedenen mathematischen **Funktionen** in Julia. ```div```ist die ganzzahlige Division. ```%``` ist der Modulo Operator/Funktion. Tatsächlich handelt es sich bei diesen Operatoren um Funktionen im Sinne der funktionalen Programmierung! 
 

@@ -18,7 +18,7 @@ Der Julia Compiler wurde in den Sprachen C/C++ und Scheme geschrieben, die Stand
 
 ## Contributing
 
-Sie können sich an diesem Handbuch gerne beteiligen. Zum Beispiel können Sie selbst Dokumentation beisteuern oder über den Issue-Tracker auf Fehler in den Dokumentationen hinweisen oder Anregungen liefern. Wenn Sie selbst Dokumentationen schreiben möchten oder einen Fehler korrigieren möchten, dann gehen Sie wie folgt vor:
+Sie können sich an diesem Handbuch gerne beteiligen. Zum Beispiel können Sie selbst Dokumentationen beisteuern oder über den Issue-Tracker auf Fehler in den Dokumentationen hinweisen oder Anregungen liefern. Wenn Sie selbst Dokumentationen schreiben möchten oder einen Fehler korrigieren möchten, dann gehen Sie wie folgt vor:
 
 * Forken des Repository
 * Clonen des Repository auf ihren lokalen Rechner

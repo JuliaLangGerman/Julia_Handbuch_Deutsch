@@ -50,3 +50,26 @@ julia> ans + 1
 * Zu erst berechnen wir im interaktiven Modus 2+3 und bekommen natürlich 5 vom Interpreter zurückgegeben. 
 * Als nächstes greifen wir auf ans zu und lassen uns ```ans + 1``` berechnen. Das Resultat ist 6, da ```ans``` das Resultat der letzten Berechnung enthält.
 
+### Update-Operatoren
+
+Stellen Sie sich vor Sie wollen den Inhalt einer Variable um 1 erhöhen. Gehen wir davon aus wir haben eine Variable ```counter``` die mit 0 initalisiert ist und möchten in jedem Schritt den Wert um Eins erhöhen. Wir könnten zum Beispiel schreiben:
+
+```julia 
+counter = counter + 1
+```
+
+Beachten Sie das ```=``` der Zuweisungsoperator ist. Die obige Zeile wird dann vom Interpreter gelesen als, hole den Wert von ```counter``` addiere 1 dazu und speichere das Resultat wieder in der Variable ```counter```.
+
+```julia
+julia> counter = 0
+0
+julia> counter = counter +1
+1
+julia> counter
+1
+```
+
+Das gleiche könnten Sie auch für alle anderen Operatoren schreiben. Zum Beispiel ```julia counter = counter / 5 ```  
+Aber wir können das ganze mit Hilfe der Update-Operatoren kürzer und ausdrucksstärker schreiben.  
+
+

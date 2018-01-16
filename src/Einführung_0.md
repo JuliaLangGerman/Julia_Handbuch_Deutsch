@@ -222,7 +222,7 @@ julia> 2 <= 2
 true
 ```
 
-Für Strings können wir die obigen Operationen auch anwenden
+Für Strings können wir die obigen Operationen auch anwenden.
 
 ```julia
 julia> "test" == "test"

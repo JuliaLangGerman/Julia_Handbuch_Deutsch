@@ -142,7 +142,7 @@ julia> 1 + 2im + 2 + im
 3 + 3im
 ```
 
-Auf Komplexe Zahlen können Sie auch in Julia die üblichen Rechenoperationen +,-,*, und / anwenden. 
+Auf Komplexe Zahlen können Sie auch in Julia die üblichen Rechenoperationen +, -, *, und / anwenden. 
 
 ### Operationen auf Strings
 

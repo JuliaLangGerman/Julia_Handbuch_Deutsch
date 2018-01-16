@@ -85,3 +85,18 @@ julia> "hello world"[1:5]
 ```
 So wie Sie es von anderen Programmiersprachen auch gewöhnt sind, können Sie auch mittels des Index-Operators **[]** auf die einzelnen Elemente eines Strings zugreifen. **Wichtig: Die Indexierung beginnt in Julia bei 1**   
 Auch das sogenannte **Slicing** ist möglich. Wir können uns also bestimmte Teile unseres Strings heraus picken, wie Sie es im letzten Beispiel oben sehen, können wir aus dem String ```"hello world"``` das ```"hello"``` herausschneiden.
+
+Funktionen für Strings
+
+```julia 
+julia> length("hello")
+5
+julia> in('h',"hello")
+true
+julia> in('c',"hello")
+false
+```
+Die Funktion ```length``` liefert die Länge des Strings.   
+Die Funktion ```in``` überprüft das Vorkommen eines bestimmten Zeichen in dem String. Diese Funktion wird uns auch später bei der Behandlung von Arrays wiederbegenen.  
+
+Darüberhinaus haben wir einen neuen Datentype bzw. dessen Werte kennen gelernt nämlich den Datentype ```Bool```  

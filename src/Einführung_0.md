@@ -21,11 +21,15 @@ julia> 3
 3
 julia> 3.14
 3.14
+julia> 0xff
+0xff
 julia> 'c'
 'c': ASCII/Unicode U+0063 (category Ll: Letter, lowercase)
 julia> "hello world"
 "hello world"
 ```
+
+* **Anmerkung:** Hexadezimalzahlen beginnen mit ```0x``` und Binärzahlen mit ```0b```  
 
 Oben haben wir bereits vier grundlegende Typen kennen gerlent. 
 
@@ -41,6 +45,8 @@ julia> typeof(3)
 Int64
 julia> typeof(3.14)
 Float64
+julia> typeof(0xff)
+UInt8
 julia> typeof('c')
 Char
 julia> typeof("hello world")

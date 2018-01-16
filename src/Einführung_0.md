@@ -99,4 +99,4 @@ false
 Die Funktion ```length``` liefert die Länge des Strings.   
 Die Funktion ```in``` überprüft das Vorkommen eines bestimmten Zeichen in dem String. Diese Funktion wird uns auch später bei der Behandlung von Arrays wiederbegenen.  
 
-Darüberhinaus haben wir einen neuen Datentype bzw. dessen Werte kennen gelernt nämlich den Datentype ```Bool```  
+Darüberhinaus haben wir einen neuen Datentype bzw. dessen Werte kennen gelernt nämlich den Datentype ```Bool``` dieser Datentype kennt nur zwei Werte nämlich ```true``` und ```false```. Diese Werte benötigen wir insbesondere bei den Kontrollstrukturen. Wir können nämlich mit Hilfe von true und false auf Ja/Nein Fragen antworten, was gerade bei Entscheidungen wichtig ist. 

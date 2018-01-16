@@ -60,4 +60,15 @@ julia> 2^3
 8
 ```
 
-Oben sehen Sie die verschiedenen mathematischen **Funktionen** in Julia. ```div```ist die ganzzahlige Division. ```%``` ist der Modulo Operator/Funktion. 
+Oben sehen Sie die verschiedenen mathematischen **Funktionen** in Julia. ```div```ist die ganzzahlige Division. ```%``` ist der Modulo Operator/Funktion. Tatsächlich handelt es sich bei diesen Operatoren um Funktionen im Sinne der funktionalen Programmierung! 
+
+Beispiele
+
+```julia
+julia> + (2,3)
+5
+julia> %(5,2)
+1
+julia> ^(2,3)
+8
+```

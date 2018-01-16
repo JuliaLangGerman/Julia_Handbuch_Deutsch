@@ -129,6 +129,20 @@ end
 
 Beim obigen Beispiel greifen wir etwas vor, aber keine Sorge die einzelnen Bestandteile werden wir noch näher klären. Das Beispiel soll nur die Verwendung von bitweisen Operationen wie hier dem links shift ```<<``` verdeutlichen.
 
+### Komplexe Zahlen in Julia
+
+Da Julia gerade für den mathematisch-technischen Bereich entwickelt wurde, versteht Julia natürlich auch komplexe Zahlen.
+Eine Komplexe Zahle der Form ```a + bi``` schreiben Sie in Julia mit ```a + bim ```.   
+```im``` ist dabei eine globale Konstante. 
+
+```julia
+julia> 1 + 2im
+1 + 2im
+julia> 1 + 2im + 2 + im
+3 + 3im
+```
+
+Auf Komplexe Zahlen können Sie auch in Julia die üblichen Rechenoperationen +,-,*, und / anwenden. 
 
 ### Operationen auf Strings
 

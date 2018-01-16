@@ -171,4 +171,14 @@ true
 * ```!=``` ist der Ungleichoperator  
 * ```==``` ist der Vergleichsoperator
 
+Im Gegensatz zu manch anderen Programmiersprachen, können wir die Vergleichsoperatoren auch verketten.
 
+```julia
+julia> 1 < 2 < 3
+true
+julia> 5 > 4 > 3
+true
+julia> 6 > 8 < 3
+false
+
+```

@@ -157,3 +157,18 @@ julia> 2 <= 2
 true
 ```
 
+Für Strings können wir die obigen Operationen auch anwenden
+
+```julia
+julia> "test" == "test"
+true
+julia> "test" < "test"
+false
+julia> "hello" != "world"
+true
+```
+
+* ```!=``` ist der Ungleichoperator  
+* ```==``` ist der Vergleichsoperator
+
+

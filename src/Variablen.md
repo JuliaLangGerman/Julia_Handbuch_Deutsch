@@ -80,3 +80,10 @@ Aber wir können das ganze mit Hilfe der Update-Operatoren kürzer und ausdrucks
 |x /= y | x = x / y |
 |x %= y | x = x % y |
 |x ^= y | x = x^y |
+
+### Ein paar Konventionen
+
+Es gibt ein paar [Konventionen](https://docs.julialang.org/en/stable/manual/variables/#Stylistic-Conventions-1) für die Benennung von Variablen. 
+
+* Variablennamen sollten in Kleibuchstaben geschrieben sein. Siehe Beispiele oben.
+* Worttrennungen sollte mit Unterstrichen _ realisiert werden. Zum Beispiel ```frame_counter```

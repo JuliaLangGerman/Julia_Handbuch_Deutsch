@@ -1,5 +1,8 @@
 # Einführung in Julia
 
+### Umgang mit Julia  
+
+
 Es gibt drei zentrale Möglichkeiten Julia zu verwenden, entweder interaktiv (sowie man es zum Beispiel von MATLAB kennt), als Interpretersprache, oder als Compilersprache. 
 
 Mit diesem Kommando
@@ -8,6 +11,8 @@ Mit diesem Kommando
 $ julia
 ```
 starten Sie den interaktiven Modus. Dieser Modus eignet sich sehr gut gerade in der Einarbeitungsphase, aber auch um schnelle Berechnungen durchführen zu können. Wenn Sie Julia erlernen möchten ist es zu empfehlen, das Sie einfach ein bisschen damit rum spielen. 
+
+### Elementare Datentypen in Julia
 
 Julia kennt wie jeder andere höhere Programmiersprache verschiedene Datentypen und deren mögliche Werte.
 
@@ -41,6 +46,9 @@ Char
 julia> typeof("hello world")
 String
 ```
+
+### Einfache Operationen auf Zahlentypen
+
 Mit diesen Elementen können wir auch arbeiten also Operationen auf sie anwenden. 
 
 ```julia
@@ -72,6 +80,8 @@ julia> %(5,2)
 julia> ^(2,3)
 8
 ```
+
+### Operationen auf Strings
 
 Einen weiteren Datentype den wir kennen gelernt haben war String. Auf Strings können Sie auch Operationen anwenden.
 
@@ -109,6 +119,8 @@ julia> "Zwei plus Drei ist $(2+3)"
 * Das Letzte Beispiel mit dem Operator ```$``` zeigt die sogenannte Interpolation. Damit können wir das Resultat von Ausdrücken oder von Variablen direkt in Strings darstellen. Die Interpolation wird uns noch im Laufe des Tutorials besonders auch bei der Behandlung von Variablen begegnen.  
 
 Darüberhinaus haben wir einen neuen Datentype bzw. dessen Werte kennen gelernt nämlich den Datentype ```Bool``` dieser Datentype kennt nur zwei Werte nämlich ```true``` und ```false```. Diese Werte benötigen wir insbesondere bei den Kontrollstrukturen. Wir können nämlich mit Hilfe von true und false auf Ja/Nein Fragen antworten, was gerade bei Entscheidungen wichtig ist. 
+
+### Operationen auf Zeichen
 
 Mit den Charactern (Zeichen) können wir auch ein bisschen was anstellen.
 

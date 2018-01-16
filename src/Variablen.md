@@ -89,3 +89,21 @@ Es gibt ein paar [Konventionen](https://docs.julialang.org/en/stable/manual/vari
 
 * Variablennamen sollten in Kleibuchstaben geschrieben sein. Siehe Beispiele oben.
 * Worttrennungen sollte mit Unterstrichen _ realisiert werden. Zum Beispiel ```frame_counter```
+
+### Ausgabe unterdrücken mit ;
+
+Ähnlich wie in MATLAB können Sie im interaktiven Modus von Julia die Ausgabe der einzelnen Variablen unterdrücken.
+
+```julia
+julia> zahl = 5
+5
+```
+
+Im obigen Beispiel wird nach dem bestätigen mit Enter der Wert der Variable nochmal ausgegeben. Um dies zu verhindern setzt man ein Semicolon nach der Variablenzuweisung.
+
+```julia
+julia> zahl = 5;
+
+
+```
+

@@ -138,5 +138,22 @@ julia> Int('\n')
 
 Die obigen Funktionen lassen sich natürlich auch auf Kontrollzeichen wie ```\n``` Zeilenumbruch, oder Tabulator ```\t``` anwenden.
 
+### Vergleichsoperationen
 
+Die Operationen die wir jetzt kennen lernen haben alle gemeinsam das ihr Resultat vom Type Bool ist. Also entweder true oder false. Diese Operationen können wir auf die bereits oben besprochenen Typen anwenden. Wenn Sie bereits andere Programmiersprachen gewohnt sind, dann werden Sie wahrscheinlich die ein oder anderen Operatoren bereits kennen. 
+
+```julia
+julia> 1 == 1
+true
+julia> 2 != 3
+true
+julia> 3 < 5
+true
+julia> 5 > 3
+true
+julia> 3 >= 3
+true
+julia> 2 <= 2
+true
+```
 

@@ -98,6 +98,8 @@ Die bitweisen Operationen können eine Rolle beim Thema Verschlüsselung und Has
 |Ausdruck|Bedeutung|
 |--------|---------|
 |~x | bitweises NICHT|
+|x & y | bitweises UND |
+|x &#124 y | bitweises ODER |
 
 ### Operationen auf Strings
 

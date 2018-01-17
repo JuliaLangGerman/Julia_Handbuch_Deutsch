@@ -210,7 +210,7 @@ for counter = 1 : 10
 end
 ```
 
-Schon ein gewaltiger Unterschied! Wir kommen ohne unnötige Variablen und unötige Zuweisungen aus. Hier nochmal die Syntax:  
+Schon ein gewaltiger Unterschied! Wir kommen ohne unnötige Variablen und unötige Zuweisungen aus. Die Wahl der richtigen Kontrollstruktur hat einen großen Einfluss auf die lesbarkeit des Codes. Hier nochmal die Syntax:  
 
 ```julia
 for LAUFVARIABLE = START : END

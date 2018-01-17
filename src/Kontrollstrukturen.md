@@ -64,10 +64,14 @@ x = 10  # wir benutzen hier eine fest zugewiesene Variable
 
 if x > 3
   println("x > 3")
-elseif x < 3
+elseif x < 3  # 
   println("x < 3")
 else 
   println("x = 3")
 end
 ```
 
+* Wir eine ```elseif``` Anweisung eingebaut. Damit können wir einen weiteren Test durchführen. Beachten Sie das der Programmfluss von oben nach unten läuft. Das bedeutet wenn der Test an der Stelle ```if x > 3``` fehlschlägt, dann geht es
+an der Stelle ```elseif``` weiter. Wenn dieser Test auch fehl schlägt dann gehen wir in den else-Block.
+
+Spielen Sie auch hier ruhig etwas mit dem Programm herum und ändern Sie die Variablenzuweisung. 

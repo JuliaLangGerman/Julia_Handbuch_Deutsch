@@ -104,6 +104,8 @@ Im obigen Beispiel wird nach dem bestätigen mit Enter der Wert der Variable noc
 ```julia
 julia> zahl = 5;
 
-
 ```
 
+---
+
+[Zurück zum Inhaltsverzeichnis](../README.md)

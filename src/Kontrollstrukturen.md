@@ -108,3 +108,16 @@ resultat = begin
  println(resultat)
 ```
 Wir können diese Blöcke auch eine Variablen zuweisen. Jetzt könnten Sie fragen wie soll das gehen? Nun Julia ist auch **funktional** das bedeutet das Resultat der zuletzt ausgeführten Operation (in unserem Fall ```x+y```) wird von unsere Sequenze zurückgegeben. Dieses Resultat wird dann an die Variable übergeben. Das bedeutet die Sequenze in Julia ```begin end``` ist ein Ausdruck der einen Wert zurück gibt. 
+
+## Ternary Operator
+
+Wenn Sie aus einer der Programmiersprachen C, C++, Java, C# kommen dann kennen Sie bestimmt den ternary operator.
+Die Syntax sieht wie folgt aus:  
+
+``` BEDINGUNG ? WERT1 : WET2 ```
+
+Dieses Konstrukt kann einer Variable zugewiesen werden, aber auch einer Funktion übergeben werden. Es funktioniert wie folgt, wenn die BEDINGUNG ```true``` liefert dann wird WERT1 zurückgegeben (z.B. an die Variable übergeben) ansonsten wir der WERT2 übergeben. Bei den "Werten" kann es sich auch um Strings oder sonstige Objekte handeln. 
+
+---
+
+[Zurück zum Inhaltsverzeichnis](../README.md)

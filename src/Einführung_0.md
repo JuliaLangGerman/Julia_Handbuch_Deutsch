@@ -181,6 +181,18 @@ julia> "Zwei plus Drei ist $(2+3)"
 * Der Operator ```*``` ist ein kürzere Schreibweise für die Konkatenation.  
 * Das Letzte Beispiel mit dem Operator ```$``` zeigt die sogenannte Interpolation. Damit können wir das Resultat von Ausdrücken oder von Variablen direkt in Strings darstellen. Die Interpolation wird uns noch im Laufe des Tutorials besonders auch bei der Behandlung von Variablen begegnen.  
 
+#### Strings sind immutable
+
+Strings können später nicht mehr verändert werden! Der Versuch wird schwer bestraft. 
+
+```julia
+julia> str = "test";
+julia> str[1] = 'e'
+ERROR: MethodError: `setindex!` has no method matching setindex!(::ASCIIString, ::Char, ::Int64)
+```
+
+Obiger Code wird einen Fehler verursachen auch wenn Sie das ```e``` in Anführungszeichen setzen. 
+
 ### Der Datentype Bool
 
 Darüberhinaus haben wir einen neuen Datentype bzw. dessen Werte kennen gelernt nämlich den Datentype ```Bool```. Dieser Datentype kennt nur zwei Werte nämlich ```true``` und ```false```. Diese Werte benötigen wir insbesondere bei den Kontrollstrukturen. Wir können nämlich mit Hilfe von true und false auf Ja/Nein Fragen antworten, was gerade bei Entscheidungen wichtig ist. 

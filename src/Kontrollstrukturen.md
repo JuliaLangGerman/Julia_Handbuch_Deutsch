@@ -63,7 +63,7 @@ Wir sind nun in der Lage einfache Verzweigungen zu bauen. Unser obiger Test welc
 
 
 ```julia
-x = 10  # wir benutzen hier eine fest zugewiesene Variable
+x = 10  # Wir benutzen hier eine fest zugewiesene Variable
 
 if x > 3
   println("x > 3")
@@ -99,6 +99,7 @@ end
 Alles was zwischen ```begin``` und ```end``` steht umfasst einen Codeblock. In Julia können wir mit diesen Codeblöcken aber wesentlich mehr machen.
 
 ```julia
+# Zuweisung an eine Variable
 resultat = begin
               x = 5;
               y = 7;

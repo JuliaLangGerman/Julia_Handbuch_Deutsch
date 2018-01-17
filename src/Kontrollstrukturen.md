@@ -166,7 +166,7 @@ Mit der while-Schleife muss man etwas aufpassen. Ein Fehler der oft auch noch Pr
 
 Ihr Programm wird dann solange wie Sie es laufen lassen 1 ausgeben. Sie sollten immer einen Fluchtweg parat haben. Also dafür sorgen das die Schleife irgendwann wieder verlassen wird. 
 
-## break und continue
+### break und continue
 
 Mit Hilfe des Statement ```break``` verlassen Sie die Schleife direkt, egal ob es sich um eine while-Schleife oder eine for-Schleife handelt. Mit der ```continue``` Anweisung kehrt das Programm zum Schleifenkopf zurück. Das bedeutet es wird eine neue Iteration gestartet. 
 
@@ -199,6 +199,24 @@ end
 ```
 
 Oben das gleiche Programm welches auch wieder von 1 bis 10 zählt. Diesmal nutzen wir ```continue```. Der zentrale Unterschied ist das wir diesmal einen kleinen Schalter eingebaut haben nämlich die boolische Variable ```loop```, mit ihr können wir die Schleife abschalten und somit verlassen. Das wir diese auch zum richtigen Zeitpunkt verlassen haben wir ```continue``` in Kombination mit der ```if``` Verzweigung verwendet. Auch hier gilt wieder ausprobieren. 
+
+### for-Schleife
+
+Die for-Schleife (manchmal auch Zählschleife genannt) können Sie immer dann einsetzen, wenn Sie genau wissen wie oft Anweisungen wiederholt werden müssen. Um bei dem einfachen Beispiel von oben zu bleiben, bei dem wir einfach von 1 bis 10 zählen. Können wir dies wesentlich eleganter mit einer for-Schleife machen. 
+
+```julia
+for counter = 1 : 10
+  println(counter)
+end
+```
+
+Schon ein gewaltiger Unterschied! Wir kommen ohne unnötige Variablen und unötige Zuweisungen aus. Hier nochmal die Syntax:  
+
+```julia
+for LAUFVARIABLE = START : END
+  # mach was
+end
+```
 
 
 ---

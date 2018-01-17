@@ -13,6 +13,7 @@ Bei Julia handelt es sich um eine effiziente höhere Programmiersprache gerade f
 * [Installation](https://github.com/JuliaLangGerman/Julia_Handbuch_Deutsch/blob/master/src/Installation.md)
 * [Einführung: Elementare Typen und Operationen](https://github.com/JuliaLangGerman/Julia_Handbuch_Deutsch/blob/master/src/Einf%C3%BChrung_0.md)
 * [Variablen](https://github.com/JuliaLangGerman/Julia_Handbuch_Deutsch/blob/master/src/Variablen.md)
+* [Kontrollstrukturen](https://github.com/JuliaLangGerman/Julia_Handbuch_Deutsch/blob/master/src/Kontrollstrukturen.md)
 
 ---
 

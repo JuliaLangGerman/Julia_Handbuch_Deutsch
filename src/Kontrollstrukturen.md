@@ -230,7 +230,7 @@ for ch in str
 end
 ```
 
-Das obige Programm gibt auf jeder Zeile ein Zeichen des Strings ```str``` aus. 
+Das obige Programm gibt auf jeder Zeile ein Zeichen des Strings ```str``` aus.  
 Syntax 
 
 ```julia

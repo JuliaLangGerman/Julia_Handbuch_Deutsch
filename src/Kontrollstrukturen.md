@@ -160,7 +160,11 @@ Das obige Programme zählt von 1 bis 10. Die Schleifenbedingung ist hier ```coun
 
 Es empfiehlt sich auch hier das Sie den Code einfach mal nach tippen und ihn dann ausführen. 
 
+### Endlosschleife
 
+Mit der while-Schleife muss man etwas aufpassen. Ein Fehler der oft auch noch Profis passiert ist, das sie im Schleifenkörper - dem Codeblock der Schleife - keine Veränderung der Schleifenbedingung vorsehen. Dann wir die while-Schleife niemals verlassen. Gehen Sie einfach mal hin und kommentieren Sie die Zeile ```counter += 1``` aus. Setzen Sie einfach vor die Zeile ein ```#```. Dann übersetzen Sie das Programm erneut. Allerdings müssen Sie dann das Programm gewaltsam beeenden! 
+
+Ihr Programm wird dann solange wie Sie es laufen lassen 0 ausgeben.
 
 ---
 

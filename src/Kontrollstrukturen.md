@@ -43,6 +43,9 @@ else
   println("x < 3 oder x = 3")
 end
 ```
+
+* Mit ```#``` beginnen wir einen Kommentar der über eine Zeile geht. Dieser Text wird vom Interpreter ignoriert.  
+
 Anschließend starten Sie das Programm mit  
 
 ``` julia verzweigung.jl ```
@@ -75,3 +78,5 @@ end
 an der Stelle ```elseif``` weiter. Wenn dieser Test auch fehl schlägt dann gehen wir in den else-Block.
 
 Spielen Sie auch hier ruhig etwas mit dem Programm herum und ändern Sie die Variablenzuweisung. 
+
+

@@ -45,6 +45,7 @@ Anschließend starten Sie das Programm mit
 ``` julia verzweigung.jl ```
 
 Die Ausgabe sollte sein ```x > 3```  
+Wenn Sie die Variable umgekehrt mal auf 1 setzen, dann wir die Ausgabe ```x < 3 oder x = 3``` lauten.  
 
-Wenn Sie die Variable umgekehrt mal auf 1 setzen, dann wir die Ausgabe ```x < 3 oder x = 3``` lauten.
+Mit Hilfe der Zeile ```if BEDINGUNG``` legen wir fest was gestestet werden soll. Der darauf folgende Code bis zur Anweisung ```else``` wird ausgeführt wenn die Bedingung also unser Test ```true``` geliefert hat. Der Code von der else-Anweisung bis zur end-Anweisung wird ausgeführt wenn unser Test fehlschlug, also ```false``` lieferte. 
 

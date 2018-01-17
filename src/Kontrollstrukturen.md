@@ -80,3 +80,30 @@ an der Stelle ```elseif``` weiter. Wenn dieser Test auch fehl schlägt dann gehe
 Spielen Sie auch hier ruhig etwas mit dem Programm herum und ändern Sie die Variablenzuweisung. 
 
 
+## Codeblöcke
+
+Im obigen Abschnitt habe ich von Blöcken gesprochen. Man bezeichnet den Teil zwischen ```if``` und dem nächsten ```elseif``` oder ```else``` als einen Codeblock. Diese Blöcke werden in unserem Fall ausgeführt, wenn eine bestimmte Bedingung gilt. Zum Beispiel x > 3 ist oder x = 3 ist usw.
+
+### Compound Expressions (Sequenz)
+
+Eine ganz einfache Kontrollstruktur in der Informatik ist die Sequenz. Dies ist eine aneinander Reihung von Anweisungen. 
+Wir können uns diese Sequenz auch als einen Codeblock vorstellen.  
+
+```julia
+begin
+  x = 5;
+  y = 7;
+  println(x+y)
+end
+```
+Alles was zwischen ```begin``` und ```end``` steht umfasst einen Codeblock. In Julia können wir mit diesen Codeblöcken aber wesentlich mehr machen.
+
+```julia
+resultat = begin
+              x = 5;
+              y = 7;
+              x+y
+            end
+ println(resultat)
+```
+Wir können diese Blöcke auch eine Variablen zuweisen. Jetzt könnten Sie fragen wie soll das gehen? Nun Julia ist auch **funktional** das bedeutet das Resultat der zuletzt ausgeführten Operation (in unserem Fall ```x+y```) wird von unsere Sequenze zurückgegeben. Dieses Resultat wird dann an die Variable übergeben. Das bedeutet die Sequenze in Julia ```begin end``` ist ein Ausdruck der einen Wert zurück gibt. 

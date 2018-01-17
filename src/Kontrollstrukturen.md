@@ -29,5 +29,22 @@ Aber mit Hilfe von Kontrollstrukturen können wir wesentlich interessantere Prog
 
 * ``` x > 3 ``` wäre eine solche Bedingung die testet ob der Wert in ```x``` größer als 3 ist.  
 
+Tippen Sie das folgende kleine Programm in eine Textdatei mit Namen ```verzweigung.jl```
 
+```julia
+x = 10  # wir benutzen hier eine fest zugewiesene Variable
+
+if x > 3
+  println("x > 3")
+else
+  println("x < 3 oder x = 3")
+end
+```
+Anschließend starten Sie das Programm mit  
+
+``` julia verzweigung.jl ```
+
+Die Ausgabe sollte sein ```x > 3```  
+
+Wenn Sie die Variable umgekehrt mal auf 1 setzen, dann wir die Ausgabe ```x < 3 oder x = 3``` lauten.
 

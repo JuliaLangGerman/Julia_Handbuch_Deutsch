@@ -267,4 +267,6 @@ true
 * ```&&``` ist das logische UND  
 * ```||``` ist das logische ODER
 
+---
 
+[Zurück zum Inhaltsverzeichnis](../README.md)

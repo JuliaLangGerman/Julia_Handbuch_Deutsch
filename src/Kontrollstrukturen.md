@@ -45,6 +45,7 @@ end
 ```
 
 * Mit ```#``` beginnen wir einen Kommentar der über eine Zeile geht. Dieser Text wird vom Interpreter ignoriert.  
+* ```println``` ist eine Funktion mit der wir einen String auf der Konsole ausgegeben können. Wenn wir unsere Programme in Textdateien unterbringen, dann verwenden wir für die Ausgabe println. 
 
 Anschließend starten Sie das Programm mit  
 
@@ -137,6 +138,29 @@ Die Syntax sieht wie folgt aus:
 ``` BEDINGUNG ? WERT1 : WET2 ```
 
 Dieses Konstrukt kann einer Variable zugewiesen werden, aber auch einer Funktion übergeben werden. Es funktioniert wie folgt, wenn die BEDINGUNG ```true``` liefert dann wird WERT1 zurückgegeben (z.B. an die Variable übergeben) ansonsten wir der WERT2 übergeben. Bei den "Werten" kann es sich auch um Strings oder sonstige Objekte handeln. 
+
+## Schleifen
+
+Oft kommt es beim Programmieren vor das wir bestimmte Anweisungen (Sequenzen) wiederholen müssen. Die Zahl der Wiederholungen kann direkt bekannt sein, kann aber auch von entsprechenden Bedingungen abhängen. In Julia gibt es zwei zentrale Schleifen Arten.
+
+### while - Schleife
+
+Die erste ist die sogenannte while-Schleife. Diese Schleife wiederholt einen Codeblock solange wie die Schleifenbedingung ```true``` ist. 
+
+```julia
+counter = 1
+
+while counter <= 10
+  println(counter)
+  counter += 1
+end
+```
+
+Das obige Programme zählt von 1 bis 10. Die Schleifenbedingung ist hier ```counter <= 10```. Solange diese Bedingung true ist, wiederholen wir den Codeblock der zur Schleife gehört. Damit wir irgendwann aus der Schleife herauskommen, müssen wir die Variable ```counter``` bei jedem Durchgang um Eins erhöhen. Das machen wir mit dem Update-Operator ```+=``` 
+
+Es empfiehlt sich auch hier das Sie den Code einfach mal nach tippen und ihn dann ausführen. 
+
+
 
 ---
 

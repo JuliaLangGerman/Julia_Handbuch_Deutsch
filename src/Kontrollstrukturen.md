@@ -218,6 +218,30 @@ for LAUFVARIABLE = START : END
 end
 ```
 
+#### for-each
+
+Die for-Schleife können wir noch in einer Sonderform betrachten nämlich der for-each Schleife. Gerade wenn wir über eine Datenstruktur laufen wollen, kann es vernünftiger sein eine for-each Schleife zu nutzen. Entsprechende Datenstrukturen wie das Array werden wir noch näher behandeln. Im moment begnügen wir uns mit Strings. Ein String ist auch eine Datenstruktur die verschiedene Zeichen enthält und Operationen darauf zulässt!
+
+```julia
+str = "hallo welt"
+
+for ch in str
+  println(ch)
+end
+```
+
+Das obige Programm gibt auf jeder Zeile ein Zeichen des Strings ```str``` aus. 
+Syntax 
+
+```julia
+for LAUFVARIABLE in DATENSTRUKTUR
+  # mach was
+end
+```
+
+Die Laufvariable nimmt hier bei jedem Durchlauf ein neues Element aus der Datenstruktur an. Im obigen Beispiel eben ein Zeichen. 
+
+
 
 ---
 

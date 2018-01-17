@@ -79,6 +79,26 @@ an der Stelle ```elseif``` weiter. Wenn dieser Test auch fehl schlägt dann gehe
 
 Spielen Sie auch hier ruhig etwas mit dem Programm herum und ändern Sie die Variablenzuweisung. 
 
+### Unterschiede zu MATLAB, C/C++ und Anderen
+
+In Sprachen wie MATLAB aber auch C/C++ ist man gewöhnt das man bei den Kontrollstrukturen wann immer eine Bedinung verlangt wird auch einen numerischen Wert platzieren kann. Wenn dieser Wert ungleich 0 ist wird er als true interpretiert ansonsten zu false interpretiert. In Julia aber auch in Java muss der Wert eines Ausdrucks stets boolisch sein, das heißt also einen Wahrheitswert liefern. 
+
+```c
+if (1) 
+{
+  // mach was
+}
+```
+
+Die obige Verzweigung würde in der Programmiersprache C funktionieren und der Codeteil ``` // mach was ``` würde ausgeführt werden. In Julia dagegen:  
+
+```julia
+if 1 
+  # mach was
+end
+```
+
+Bekommen Sie vom Interpreter auf die Finger geklopft!
 
 ## Codeblöcke
 

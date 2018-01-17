@@ -164,7 +164,42 @@ Es empfiehlt sich auch hier das Sie den Code einfach mal nach tippen und ihn dan
 
 Mit der while-Schleife muss man etwas aufpassen. Ein Fehler der oft auch noch Profis passiert ist, das sie im Schleifenkörper - dem Codeblock der Schleife - keine Veränderung der Schleifenbedingung vorsehen. Dann wir die while-Schleife niemals verlassen. Gehen Sie einfach mal hin und kommentieren Sie die Zeile ```counter += 1``` aus. Setzen Sie einfach vor die Zeile ein ```#```. Dann übersetzen Sie das Programm erneut. Allerdings müssen Sie dann das Programm gewaltsam beeenden! 
 
-Ihr Programm wird dann solange wie Sie es laufen lassen 0 ausgeben.
+Ihr Programm wird dann solange wie Sie es laufen lassen 1 ausgeben. Sie sollten immer einen Fluchtweg parat haben. Also dafür sorgen das die Schleife irgendwann wieder verlassen wird. 
+
+## break und continue
+
+Mit Hilfe des Statement ```break``` verlassen Sie die Schleife direkt, egal ob es sich um eine while-Schleife oder eine for-Schleife handelt. Mit der ```continue``` Anweisung kehrt das Programm zum Schleifenkopf zurück. Das bedeutet es wird eine neue Iteration gestartet. 
+
+```julia
+counter = 1
+
+while true
+  if counter == 11
+    break           # unser Fluchtweg
+  end
+  println(counter)
+  counter += 1
+end
+```
+
+Oben das gleiche Programme, welches von 1 bis 10 zählt. Nun aber mit einem eingebauten Fluchtweg ```break``` in Kombination mit einer ```if``` Verzweigung. Ich empfehle auch hier, tippen Sie das Programm nach und testen Sie es! 
+
+```julia
+counter = 1
+loop = true
+
+while loop
+  if counter == 11
+    loop = false    # ganz wichtig da sonst endlos!
+    continue      
+  end
+  println(counter)
+  counter += 1
+end
+```
+
+Oben das gleiche Programm welches auch wieder von 1 bis 10 zählt. Diesmal nutzen wir ```continue```. Der zentrale Unterschied ist das wir diesmal einen kleinen Schalter eingebaut haben nämlich die boolische Variable ```loop```, mit ihr können wir die Schleife abschalten und somit verlassen. Das wir diese auch zum richtigen Zeitpunkt verlassen haben wir ```continue``` in Kombination mit der ```if``` Verzweigung verwendet. Auch hier gilt wieder ausprobieren. 
+
 
 ---
 

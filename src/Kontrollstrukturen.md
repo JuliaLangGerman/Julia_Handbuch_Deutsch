@@ -243,7 +243,7 @@ Die Laufvariable nimmt hier bei jedem Durchlauf ein neues Element aus der Datens
 
 ## Ausnahme-Behandlung
 
-Dieses Thema gehört auch in die Kategorie Kontrollstrukturen, da es entsprechende Kontrollstrukturen gibt um sogenannte Ausnahmen zu behandeln. Was ist  aber eine Ausnahme? Für gewöhnlich verhält sich der Programmfluss ihrer Programme so, das wenn es zu einem unerwarteten Problem kommt, das Programm einfach mit einigen (für den Anwender meist unverständlichen) Fehlermeldungen terminiert. 
+Dieses Thema gehört auch in die Kategorie Kontrollstrukturen, da es entsprechende Kontrollstrukturen gibt um sogenannte Ausnahmen zu behandeln. Was ist  aber eine Ausnahme? Für gewöhnlich verhält sich der Programmfluss ihrer Programme so, das wenn es zu einem unerwarteten Problem kommt, das Programm einfach mit einigen (für den Anwender meist unverständlichen) Fehlermeldungen terminiert. Gerade deshalb wollen wir als Entwickler dieses Verhalten selbst beeinflussen können, zum Beispiel eigene, verständliche Fehlermeldungen an den Benutzer weiter geben, oder das Problem sogar intern beheben.
 
 Machen Sie einfach mal im interaktiven Modus folgendes Experiment.
 

@@ -265,8 +265,18 @@ Wenn so etwas währen des Programmflusses auftritt, dann spricht man von einer *
 Stellen Sie sich vor Sie möchten ein Programm für die Berechnung der Quadratwurzel schreiben.
 
 **User Story 1:** Der Benutzer kann eine Zahl eingeben für die dann die Quadratwurzel berechnet wird.  
-**User Story 2:** Gibt der Benutzer eine negative Zahl ein, so soll er darüber infomiert werden das er ein komplexes Ergebnis bekommt. Und zu dem wird das komplexe Resultat ausgegeben.
+**User Story 2:** Gibt der Benutzer eine negative Zahl ein, so soll er darüber infomiert werden das er ein komplexes          Ergebnis bekommt und zu dem wird das komplexe Resultat ausgegeben.
 
+Man könnte die Eingabe negativer Zahlen einfach mittels ```if``` Abfrage realisieren. Da wir aber in diesem Abschnitt Exception Handling behandeln, werden wir eine neue Kontrollstruktur einführen. 
+
+```julia
+try 
+  # mach was
+  # hier kann es knallen!
+catch e
+  # behandlung der Ausnahme
+end
+```
 
 
 ---

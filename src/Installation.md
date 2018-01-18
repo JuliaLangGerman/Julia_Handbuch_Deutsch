@@ -5,4 +5,4 @@ Von dort können Sie Julia für Ihre Plattform downloaden und installieren.
 
 ---
 
-[Zurück zum Inhaltsverzeichnis](../README.md)
+[Zurück zum Inhaltsverzeichnis](../README.md#inhaltsverzeichnis)

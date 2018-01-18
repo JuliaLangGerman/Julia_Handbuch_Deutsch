@@ -278,6 +278,8 @@ catch e
 end
 ```
 
+Zwischen ```try``` und ```catch e``` darf irgendwelcher Code stehen, in dem Sie damit rechnen das es zu einem Problem kommen kann. Wenn dann ein Fehler auftritt wird von diesem Codeblock ```try ... catch e``` in den darunter liegenden gesprungen. 
+Es wird dann der Code zwischen ```catch e``` und ```end``` ausgeführt. 
 
 ---
 

@@ -108,4 +108,4 @@ julia> zahl = 5;
 
 ---
 
-[Zurück zum Inhaltsverzeichnis](../README.md)
+[Zurück zum Inhaltsverzeichnis](../README.md#inhaltsverzeichnis)

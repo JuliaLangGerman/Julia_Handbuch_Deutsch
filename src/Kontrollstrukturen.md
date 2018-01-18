@@ -303,7 +303,7 @@ Die Variable ```e``` die wir beim ```catch``` Zweig immer sehen, enthält zusät
 
 #### User-Interface (UI)
 
-Als kleine Randnotiz: Lassen Sie Ihren Anwender nicht dumm sterben. Das heißt Ihr Programm sollte wenigstens ein kleines **Userinterface** bereitstellen, aus dem hervorgeht für was das Programm da ist und was es eventuell für Eingaben vom Benutzer verlangt. Ein Beispiel sehen Sie im obigen Quadratwurzel-Programm.  
+Als kleine Randnotiz: Lassen Sie Ihren Anwender nicht dumm sterben. Das heißt Ihr Programm sollte wenigstens ein kleines Userinterface bereitstellen, aus dem hervorgeht für was das Programm da ist und was es eventuell für Eingaben vom Benutzer verlangt. Ein Beispiel sehen Sie im obigen Quadratwurzel-Programm.  
 
 Zum Beispiel:  
 ```println("\t\tProgramm zur Berechnung der Quadratwurzel\n\n")```  

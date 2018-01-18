@@ -298,6 +298,8 @@ end
 
 Die Variable ```e``` die wir beim ```catch``` Zweig immer sehen, enthält zusätzliche Fehlerinformationen. Mit Hilfe von ```println``` können Sie den Inhalt von ```e``` einfach ausgeben.  
 
+Beim obigen Beispiel hatten wir bisher den ```DomainError```. Es gibt natürlich noch weit aus mehr Exceptions. Eine ganze Liste davon können Sie [hier](https://docs.julialang.org/en/stable/manual/control-flow/#Exception-Handling-1) einsehen.
+
 ---
 
 [Zurück zum Inhaltsverzeichnis](../README.md)

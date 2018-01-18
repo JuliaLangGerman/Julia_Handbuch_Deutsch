@@ -281,6 +281,23 @@ end
 Zwischen ```try``` und ```catch e``` darf irgendwelcher Code stehen, in dem Sie damit rechnen das es zu einem Problem kommen kann. Wenn dann ein Fehler auftritt wird von diesem Codeblock ```try ... catch e``` in den darunter liegenden gesprungen. 
 Es wird dann der Code zwischen ```catch e``` und ```end``` ausgeführt. 
 
+```julia
+print("Zahl? ") # einfaches prompt
+eingabe = parse(Float64, readline()) # einlesen über readline()
+
+try
+    println("Das Resultat ist $(sqrt(eingabe))") # berechnung + ausgabe
+catch e
+    println("Negative Eingabe: Sie erhalten ein komplexes Ergebnis!") # warnhinweis
+    println("Resultat ist $(sqrt(complex(eingabe)))") # berechnung + ausgabe
+end
+```
+
+* ```readline``` benutzen wir zum einlesen eines Strings(!) über dien Konsole.   
+* ```parse```  benutzen wir um den eingelesen String in den Datentype Float64 zur parsen. Dadurch können wir dann die Eingabe als eine Fließkommazahl betrachten und sie der Funktion ```sqrt``` übergeben.
+
+Die Variable ```e``` die wir beim ```catch``` Zweig immer sehen, enthält zusätzliche Fehlerinformationen. Mit Hilfe von ```println``` können Sie den Inhalt von ```e``` einfach ausgeben.  
+
 ---
 
 [Zurück zum Inhaltsverzeichnis](../README.md)

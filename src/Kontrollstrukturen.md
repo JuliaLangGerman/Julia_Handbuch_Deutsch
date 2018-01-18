@@ -168,7 +168,7 @@ Ihr Programm wird dann solange wie Sie es laufen lassen 1 ausgeben. Sie sollten 
 
 ### break und continue
 
-Mit Hilfe des Statement ```break``` verlassen Sie die Schleife direkt, egal ob es sich um eine while-Schleife oder eine for-Schleife handelt. Mit der ```continue``` Anweisung kehrt das Programm zum Schleifenkopf zurück. Das bedeutet es wird eine neue Iteration gestartet. 
+Mit Hilfe des Statement ```break``` verlassen Sie die Schleife direkt, egal ob es sich um eine while-Schleife oder eine [for-Schleife](#for-schleife) handelt. Mit der ```continue``` Anweisung kehrt das Programm zum Schleifenkopf zurück. Das bedeutet es wird eine neue Iteration gestartet. 
 
 ```julia
 counter = 1

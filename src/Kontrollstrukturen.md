@@ -282,6 +282,7 @@ Zwischen ```try``` und ```catch e``` darf irgendwelcher Code stehen, in dem Sie 
 Es wird dann der Code zwischen ```catch e``` und ```end``` ausgeführt. 
 
 ```julia
+println("\t\tProgramm zur Berechnung der Quadratwurzel\n\n")
 print("Zahl? ") # einfaches prompt
 eingabe = parse(Float64, readline()) # einlesen über readline()
 
@@ -295,8 +296,20 @@ end
 
 * ```readline``` benutzen wir zum einlesen eines Strings(!) über dien Konsole.   
 * ```parse```  benutzen wir um den eingelesen String in den Datentype Float64 zur parsen. Dadurch können wir dann die Eingabe als eine Fließkommazahl betrachten und sie der Funktion ```sqrt``` übergeben.
+* ```\n``` ist ein Steuerzeichen um einen Zeilenumbruch zu erzwingen.  
+* ```\t``` ist für ein Tabulator Einschub zu erzwingen.
 
 Die Variable ```e``` die wir beim ```catch``` Zweig immer sehen, enthält zusätzliche Fehlerinformationen. Mit Hilfe von ```println``` können Sie den Inhalt von ```e``` einfach ausgeben.  
+
+#### User-Interface (UI)
+
+Als kleine Randnotiz: Lassen Sie Ihren Anwender nicht dumm sterben. Das heißt Ihr Programm sollte wenigstens ein kleines **Userinterface** bereitstellen, aus dem hervorgeht für was das Programm da ist und was es eventuell für Eingaben vom Benutzer verlangt. Ein Beispiel sehen Sie im obigen Quadratwurzel-Programm.  
+
+Zum Beispiel:  
+```println("\t\tProgramm zur Berechnung der Quadratwurzel\n\n")```  
+```print("Zahl? ")```  
+
+### Weitere Exceptions
 
 Beim obigen Beispiel hatten wir bisher den ```DomainError```. Es gibt natürlich noch weit aus mehr Exceptions. Eine ganze Liste davon können Sie [hier](https://docs.julialang.org/en/stable/manual/control-flow/#Exception-Handling-1) einsehen.
 

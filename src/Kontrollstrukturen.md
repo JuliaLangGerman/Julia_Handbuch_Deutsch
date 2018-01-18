@@ -130,7 +130,7 @@ resultat = begin
 ```
 Wir können diese Blöcke auch eine Variablen zuweisen. Jetzt könnten Sie fragen wie soll das gehen? Nun Julia ist auch **funktional** das bedeutet das Resultat der zuletzt ausgeführten Operation (in unserem Fall ```x+y```) wird von unsere Sequenze zurückgegeben. Dieses Resultat wird dann an die Variable übergeben. Das bedeutet die Sequenze in Julia ```begin end``` ist ein Ausdruck der einen Wert zurück gibt. 
 
-## Ternary Operator
+### Ternary Operator
 
 Wenn Sie aus einer der Programmiersprachen C, C++, Java, C# kommen dann kennen Sie bestimmt den ternary operator.
 Die Syntax sieht wie folgt aus:  
@@ -240,6 +240,27 @@ end
 ```
 
 Die Laufvariable nimmt hier bei jedem Durchlauf ein neues Element aus der Datenstruktur an. Im obigen Beispiel eben ein Zeichen. 
+
+## Ausnahme-Behandlung
+
+Dieses Thema gehört auch in die Kategorie Kontrollstrukturen, da es entsprechende Kontrollstrukturen gibt um sogenannte Ausnahmen zu behandeln. Was ist  aber eine Ausnahme? Für gewöhnlich verhält sich der Programmfluss ihrer Programme so, das wenn es zu einem unerwarteten Problem kommt, das Programm einfach mit einigen (für den Anwender meist unverständlichen) Fehlermeldungen terminiert. 
+
+Machen Sie einfach mal im interaktiven Modus folgendes Experiment.
+
+```julia
+julia> sqrt(-1)
+```
+Wer mathematisch etwas fast im Sattel sitzt der weis das man von einer negativen Zahl nicht die Quadratwurzel ziehen kann. Oder um genauer zu sein für die reellen Zahlen gibt es für die Quadratwurzel einer negativen Zahl kein Resultat.  
+
+Wenn Sie das obige Experiment gemacht haben werden Sie wahrscheibnlich folgende Fehlermeldung erhalten haben
+
+```
+ERROR: DomainError:
+sqrt will only return a complex result if called with a complex argument. Try sqrt(complex(x)).
+ in sqrt at ./math.jl:146
+```
+
+Wenn so etwas währen des Programmflusses auftritt, dann spricht man von einer **Ausnahme**, also ein Fehler der zur Laufzeit auftritt. 
 
 
 

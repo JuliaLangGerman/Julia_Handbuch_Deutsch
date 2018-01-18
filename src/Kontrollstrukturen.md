@@ -25,7 +25,7 @@ julia> A = r^2 * pi
 
 * ```pi``` ist eine built-in Konstante.  
 
-Aber mit Hilfe von Kontrollstrukturen können wir wesentlich interessantere Programme schreiben. In den letzten beiden Kapiteln haben wir bereits die Vergleichsoperatoren kennen gelernt. Mit diesen können wir einfache Tests bauen die wir dann bei Entscheidungen verwenden können.  
+Aber mit Hilfe von Kontrollstrukturen können wir wesentlich interessantere Programme schreiben. In den letzten beiden Kapiteln haben wir bereits die [Vergleichsoperatoren](https://github.com/JuliaLangGerman/Julia_Handbuch_Deutsch/blob/master/src/Einf%C3%BChrung_0.md#vergleichsoperationen)  kennen gelernt. Mit diesen können wir einfache Tests bauen die wir dann bei Entscheidungen verwenden können.  
 
 * ``` x > 3 ``` wäre eine solche Bedingung die testet ob der Wert in ```x``` größer als 3 ist.  
 

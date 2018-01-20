@@ -14,7 +14,10 @@
 [Schleifen](#schleifen)  
 [while - Schleife](#while---schleife)  
 [Endlosschleife](#endlosschleife)  
-[break und continue](#break-und-contine)  
+[break und continue](#break-und-continue)  
+[for-Schleife](#for-schleife)  
+[foreach-Schleife](#for-each)  
+[Ausnahme-Behandlung](#ausnahme-behandlung)  
 
 ---
 

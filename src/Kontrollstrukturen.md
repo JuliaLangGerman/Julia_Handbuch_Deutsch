@@ -1,5 +1,12 @@
 # Kontrollstrukturen
 
+### Inhaltsverzeichnis
+---
+
+[Einsatz von Dateien](#einsatz-von-dateien)
+
+---
+
 ### Einsatz von Dateien
 
 Bis jetzt haben wir im interaktiven Modus von Julia gearbeitet. Da unsere Programme jetzt aber immer länger und komplexer

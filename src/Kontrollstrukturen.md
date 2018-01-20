@@ -3,8 +3,11 @@
 ### Inhaltsverzeichnis
 ---
 
-[Einsatz von Dateien](#einsatz-von-dateien)
-[if -- elseif -- else](#if----elseif----else)
+[Einsatz von Dateien](#einsatz-von-dateien)  
+[if -- elseif -- else](#if----elseif----else)  
+[if-else](#if-else)  
+[elseif](#elseif)  
+[Unterschiede zu MATLAB, C/C++ und Anderen](#unterschiede-zu-matlab,-c/c++-und-anderen]  
 
 ---
 

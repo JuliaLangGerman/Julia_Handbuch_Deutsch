@@ -11,6 +11,10 @@
 [Codeblöcke](#codeblöcke)  
 [Compound Expressions (Sequenz)](#compound-expressions-sequenz)  
 [Ternary Operator](#ternary-operator)  
+[Schleifen](#schleifen)  
+[while - Schleife](#while---schleife)  
+[Endlosschleife](#endlosschleife)  
+[break und continue](#break-und-contine)  
 
 ---
 

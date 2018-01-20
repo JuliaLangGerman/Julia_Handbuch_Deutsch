@@ -9,6 +9,8 @@
 [elseif](#elseif)  
 [Unterschiede zu MATLAB, C/C++ und Anderen](#unterschiede-zu-matlab-cc-und-anderen)   
 [Codeblöcke](#codeblöcke)  
+[Compound Expressions (Sequenz)](#compound-expressions-sequenz)  
+[Ternary Operator](#ternary-operator)  
 
 ---
 
